@@ -12,7 +12,7 @@ Findout your applications runnig ports
 
 eg: 5000
 
-## 7. Install NGINX and configure
+## 3. Install NGINX and configure
 ```
 sudo apt install nginx
 
@@ -20,7 +20,7 @@ sudo nano /etc/nginx/sites-available/default
 ```
 
 
-## 8. Create your site configuration using default
+## 4. Create your site configuration using default
 
 ```
 cd /etc/nginx/sites-available
@@ -46,7 +46,7 @@ Add the following to the location part of the server block
 ```
 
 
-## 7. Enable your Server Blocks and Restart Nginx
+## 5. Enable your Server Blocks and Restart Nginx
 
 Now that we have our server block files, we need to enable them. We can do this by creating symbolic links from these files to the sites-enabled directory, which Nginx reads from during startup.
 
@@ -65,7 +65,7 @@ sudo service nginx restart
 ```
 
 
-## 9. configure DNS for your domain name 
+## 6. configure DNS for your domain name 
 Go to your doamin provider site 
 
 
@@ -76,7 +76,7 @@ Go to your doamin provider site
 4. Under Nameservers, click Manage.
 5. Under Setup type, A Record (add you server public IP)
 
-## 10. Add SSL with LetsEncrypt
+## 7. Add SSL with LetsEncrypt
 ```
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
