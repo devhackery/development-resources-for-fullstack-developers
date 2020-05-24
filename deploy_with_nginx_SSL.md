@@ -38,7 +38,7 @@ sudo scp /etc/nginx/sites-available/default yourdomain.com
 sudo nano /etc/nginx/sites-available/yourdomain.com
 ```
 
-You can edit default configuration that directly poin to port 80 ,But I recoment not to edit default trust me on this 
+You can edit default configuration that directly poin to port 80 ,But I recommended not to edit default trust me on this 
 
 
 Add the following to the location part of the server block
