@@ -51,25 +51,21 @@
 | gem&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description                                                        |
 | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | [gem 'bullet' ](https://github.com/flyerhzm/bullet/)                                                            |  To identify    N+1 query                            |
-| [gem 'rack-cors'](https://github.com/cyu/rack-cors/)                                                           | Rack middleware for blocking & throttling abusive requests              |
-| [gem 'rack-attack' ](https://github.com/kickstarter/rack-attack/blob/6-stable/README.md/)                                                            |   Rack middleware for blocking & throttling abusive requests                           |
-| [gem 'brakeman' ](https://github.com/presidentbeef/brakeman/)                                                            |   Rack middleware for blocking & throttling abusive requests                           |
-| [gem 'reek' ](https://github.com/troessner/reek/)                                                            |   Rack middleware for blocking & throttling abusive requests                           |
-| [gem 'better_errors' ](https://github.com/BetterErrors/better_errors/)                                                            |   Rack middleware for blocking & throttling abusive requests  |
+| [gem 'rack-cors'](https://github.com/cyu/rack-cors/)                                                           |  
+| [gem 'rack-attack' ](https://github.com/kickstarter/rack-attack/blob/6-stable/README.md/)                                                            |    requests                           |
+| [gem 'brakeman' ](https://github.com/presidentbeef/brakeman/)                                                            |    requests                           |
+| [gem 'reek' ](https://github.com/troessner/reek/)                                                            |   requests                           |
+| [gem 'better_errors' ](https://github.com/BetterErrors/better_errors/)                                                            |    requests                           |
+| [ gem 'rubocop-rails' ](https://github.com/rubocop-hq/rubocop-rails/)                                                            |    requests                           |
+| [ gem 'factory_bot_rails' ](https://github.com/thoughtbot/factory_bot_rails/)                                                            |    
+| [ gem 'strong_migrations' ](https://github.com/ankane/strong_migrations/)                                                            |    requests                           |
+| [ gem 'exception_notification' ](hhttps://github.com/smartinez87/exception_notification/)                                                            |    
+| [ gem 'slack-notifier' ](https://github.com/stevenosloan/slack-notifier/)                                                            |   requests                           |
 
-| [  gem 'rubocop-rails' ](https://github.com/rubocop-hq/rubocop-rails/)                                                            |   Rack middleware for blocking & throttling abusive requests  |
-
-| [  gem 'factory_bot_rails' ](https://github.com/thoughtbot/factory_bot_rails/)                                                            |   Rack middleware for blocking & throttling abusive requests  |
-| [  gem 'strong_migrations' ](https://uidesigndaily.com/)                                                            |   Rack middleware for blocking & throttling abusive requests  |
-
-
-| [gem 'exception_notification'](hhttps://github.com/smartinez87/exception_notification/)                                                           | Rack middleware for blocking & throttling abusive requests              |
-
-
-| [gem 'slack-notifier'](https://github.com/stevenosloan/slack-notifier/)                                                           | Rack middleware for blocking & throttling abusive requests              |
+| [ gem 'rubycritic' ](https://github.com/whitesmith/rubycritic/)                                                            |   requests                           |
 
 
-| [gem 'rubycritic'](https://github.com/whitesmith/rubycritic/)                                                           | provide a quality report of your Ruby code.             |
+
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
